@@ -1,0 +1,157 @@
+html {background-color:#e7dce7;}
+* {
+  box-sizing: border-box;
+}
+header {
+	width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgrey;
+}
+.logo {
+	flex:2;
+}
+.topnav {
+	flex:1;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+  float:left;
+  padding: 10px;
+  color: #020300;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+ 
+  color: #5B22F8;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  
+  color: #5B22F8;
+}
+body {
+
+     font-family: 'Roboto', sans-serif;
+   
+    font-size: 1.125rem;
+}
+
+
+main {
+	width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+}
+.herobox1 {
+	padding: 20px;
+	flex: 1;
+	
+}
+.herobox2 {
+	
+	flex:1;	
+}
+.works {
+	width: 100%;
+	padding-bottom: 5%;
+	background-color: #5b22f8;
+	
+}
+.cards {
+	padding-top: 20px;
+	width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+	display:flex;
+	justify-content: space-between;
+
+}
+.the {
+	height: 300px;
+    object-fit: cover;
+	width: 31%;
+}
+
+img.portfolio {
+	width: 100%;
+	height:100%;
+	object-fit:cover;
+}
+
+.headline {
+	padding-top: 20px; width: 80%; color: #e7dce7;
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.section-wrapper {
+	display: flex;
+	width: 80%;
+	margin-left:auto;
+	margin-right:auto;
+	padding-bottom: 3%;
+}
+.left {
+	flex:1;
+}
+.right {
+	margin-left:30px;
+	flex: 1.5;
+}
+.blogs {
+	background-color: white;
+	padding-top: 0.5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+}
+#blog2 {
+	margin-top:30px;
+	
+}
+
+footer{
+	width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding-top: 20px;
+    border-top: 1px solid lightgrey;
+}
+img.logofooter {
+	width: 40%;
+}
+.footercolumn1 {
+    flex:1.3;
+	text-align: justify;
+	padding-right:30px;
+	padding-top:10px;
+}
+.footercolumn2 {
+	flex:1;
+	padding:auto;
+}
+.vertical-menu a {
+	flex:1;
+	align:left
+	padding:auto;
+    color: black; 
+ 	display: block; 
+  	text-decoration: none;
+}
+.vertical-menu a:hover {
+	color: #5b22f8;
+}
